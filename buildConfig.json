@@ -14,13 +14,13 @@
       "artifactType": "jar"
     },
     "github": {
-      "org": "SupplyChain-IPR",
+      
       "repo": "JavaProject",
       "URL": "https://api.github.com/users/balansaran/repos"
     },
     "fortify": {
       "foldersToScan": "src",
-      "project-name": "SupplyChain-IPR-JavaProject"
+      "project-name": "JavaProject"
     },
     "tracker": {
       "projectId": 1890409
