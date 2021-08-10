@@ -1,0 +1,54 @@
+{
+    "projectInfo": {
+      "name": "JavaProject",
+      "fmsNumber": "IT-08109",
+      "cdTemplate": "CD0001254",
+      "language": "java",
+      "versionStrategy": "tracker"
+    },
+    "artifact": {
+      "artifactoryDomain": "https://maven.artifactory.homedepot.com/artifactory",
+      "artifactoryRepoKey": "libs-release-local",
+      "artifactoryRepoKeySnapshot": "libs-snapshot-local",
+      "artifactoryGroup": "com/homedepot/ipr/ore/test",
+      "artifactType": "jar"
+    },
+    "github": {
+      "org": "SupplyChain-IPR",
+      "repo": "JavaProject",
+      "URL": "https://api.github.com/users/balansaran/repos"
+    },
+    "fortify": {
+      "foldersToScan": "src",
+      "project-name": "SupplyChain-IPR-JavaProject"
+    },
+    "tracker": {
+      "projectId": 1890409
+    },
+    "environments": {
+      "development": {
+        "artifactCategory": "snapshot",
+        "associatedBranchName": "release-candidate",
+        "snowfield-lifecycle": "np",
+        "gae": {
+          "project": "rc-replenishment-thd"
+        }
+      },
+      "master": {
+        "artifactCategory": "release",
+        "associatedBranchName": "master",
+        "snowfield-lifecycle": "pr",
+        "gae": {
+          "project": "pr-replenishment-thd"
+        }
+      }
+    },
+    "serviceNow": {
+      "windows": [
+        {
+          "start": "10:00:00",
+          "end": "16:00:00"
+        }
+      ]
+    }
+  }
