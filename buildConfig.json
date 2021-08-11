@@ -14,9 +14,9 @@
       "artifactType": "jar"
     },
     "github": {
-      
+      "orgs": "balansaran",
       "repo": "JavaProject",
-      "URL": "https://api.github.com/users/balansaran/repos"
+      "URL": "https://api.github.com/repos"
     },
     "fortify": {
       "foldersToScan": "src",
@@ -28,7 +28,7 @@
     "environments": {
       "development": {
         "artifactCategory": "snapshot",
-        "associatedBranchName": "release-candidate",
+        "associatedBranchName": "master",
         "snowfield-lifecycle": "np",
         "gae": {
           "project": "rc-replenishment-thd"
