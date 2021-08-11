@@ -16,7 +16,7 @@
     "github": {
       "org": "balansaran",
       "repo": "JavaProject",
-      "URL": "https://api.github.com/repos"
+      "URL": "https://github.com"
     },
     "fortify": {
       "foldersToScan": "src",
