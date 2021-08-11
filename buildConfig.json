@@ -16,7 +16,7 @@
     "github": {
       "org": "balansaran",
       "repo": "JavaProject",
-      "URL": "https://api.github.com/repos"
+      "URL": "http://thd-svr-proxy.homedepot.com:9090/api.github.com/repos"
     },
     "fortify": {
       "foldersToScan": "src",
